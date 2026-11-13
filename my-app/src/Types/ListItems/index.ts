@@ -1,5 +1,5 @@
 export type CheckItem = {
-  id: string;
+  id: number;
   name: string;
   isChecked: boolean;
 };
