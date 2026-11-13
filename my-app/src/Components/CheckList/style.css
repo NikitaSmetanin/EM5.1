@@ -1,0 +1,85 @@
+.card {
+  width: 360px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+.title {
+  margin: 0;
+  padding: 14px;
+  background: #1a6dff;
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.add-row {
+  display: flex;
+  gap: 8px;
+  padding: 10px 0;
+}
+
+.input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.add-button {
+  flex: 1;
+  background: #198754;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.removed {
+  color: #dc3545;
+  text-decoration: line-through;
+}
+
+.bin-button {
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.bin-button img {
+  width: 16px;
+  height: 16px;
+  filter: brightness(0) invert(1); /* белая иконка; если станет белым квадратом, удалите эту строку */
+}
